@@ -1,2 +1,35 @@
 # Sales-Forecasting
-This project aims to enhance sales forecasting by leveraging AI techniques to provide a comprehensive perspective. Traditional forecasting methods often focus on a single type of analysis, however this approach incorporates predictive analysis using machine learning, specifically Random Forest and XGBoost models. Trained on the BigMart open-source dataset, the models predict future sales trends to help businesses allocate resources, manage cash flow, and respond to demand. Results show that XGBoost, with an R-squared of 0.7456 (using grid search), outperformed Random Forest, which achieved an R-squared of 0.7426 (with grid search and feature selection).
+This project aims to improve sales forecasting methods using artificial intelligence, specifically focusing on predictive analysis. The goal is to provide a comprehensive, data-driven approach to forecast sales accurately, helping businesses form reliable strategies, manage resources, and respond proactively to market demands.
+
+## Project Overview
+
+Sales forecasting is essential for businesses aiming to predict revenue and make strategic decisions. Traditional sales forecasting often relies on single-type analysis, which can limit the effectiveness of predictions. This project, therefore, integrates multiple types of analysis using machine learning techniques, particularly Random Forest and XGBoost, to achieve a higher accuracy in sales forecasting.
+
+## Dataset
+
+The project uses the BigMart open-source dataset for training and testing. This dataset includes various attributes that impact sales, such as:
+
+Item Type
+Outlet Type
+Item MRP (Maximum Retail Price)
+Other sales-related factors
+The dataset is cleaned, pre-processed, and used to train machine learning models for improved sales predictions.
+
+## Machine Learning Models
+
+The following machine learning models were used:
+
+- Random Forest: A popular ensemble method that builds multiple decision trees and merges them to improve prediction accuracy and control over-fitting.
+- XGBoost: An optimized gradient boosting model that enhances prediction speed and model performance through advanced tree-based algorithms.
+
+## Results
+
+After training, the models yield the following R-squared values:
+
+XGBoost: 0.7456
+Random Forest: 0.7426
+These results indicate that XGBoost slightly outperforms Random Forest in sales prediction accuracy, showcasing its potential for robust sales forecasting in a business context.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
